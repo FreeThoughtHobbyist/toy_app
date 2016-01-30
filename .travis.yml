@@ -7,6 +7,7 @@ deploy:
   provider: heroku
   api_key:
     secure: PkBnU1MfZuWlGy5ouY/j4g1Qf7THcpWN1255ivzOYItWVeUgNAod/AHjbycOHP8e8cb0YzQGoj3vwGIrmhsLwo7khZhHqj1t3sRC7mNghLiXNIJThfvNJLSiyai0FU3vdGDild89EAznsMkmCtpIdjGQW+G990YzsUss0LeQt2X/ksKy8m+YEBTY1+g1XhNiJZ8ZhMUQvpm0d7b+LR09sph55YuEeYXi1qhiXrt4Klk9tqmgx5UaJqVufKSsh/LM/2Jh0EkMxi4bwo05JmvekFEcT3u5K3FkEmgkDZRJsAkeVtuTF6VtEtQLcAiDtHebLkFsQFN9xH+/9WIPrE0lgFgEFA+yCee2gWJj/uXHxRRNyvZ6kK12EjbX7zjIRM3zVNB9xdt5ipCensnBDcpoP5BL2CtdqvBuuE+RTvGGk7fKv7cj2gZ5i0FuSrb4c9kmsFI0nBAauSD9FvCtr5G7Nl5JXn+RVlKkbzXC23DpCtru8C1S2WDOQOebMnhlTE/Fk1psRorp7WL6TkhE5NeQq44F4IGCRGZu6SC5rKhw3qgOOsFNcSxXAhhi5rmBP6tKI/qsmDa530BzVbyDZCvg+xj4J/Q+I6DJgf+GKn4SkSkm76/w45FWYl8elDx37n+W8IvELFYRSvm1h/3Ak3jqn8DhTKavqvsEdhKIW/IuDU0=
+  run: "rake db:migrate"
   app: pacific-sands-28218
   on:
     repo: FreeThoughtHobbyist/toy_app
